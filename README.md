@@ -3,6 +3,8 @@
 [![hacs](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://hacs.xyz/docs/faq/custom_repositories)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+中文 | [English](README.en.md)
+
 把集客无线 AC 和它管理的 AP 接入 Home Assistant：AP 在线状态、终端数、实时上下行速率、CPU / 内存 / 负载、开机时间，以及全网汇总。
 
 - **本地轮询**：只访问局域网里的 AC 和 AP，不经过任何云服务。
@@ -101,9 +103,3 @@ uv run --no-project --with aiohttp python tests/test_api.py
 ## 许可证
 
 [MIT](LICENSE)
-
----
-
-## English
-
-Home Assistant integration for GECOOS (集客) wireless AC controllers and the APs they manage: AP online state, client count and list, throughput, CPU / memory / load and uptime, plus network-wide totals. Local polling only, read-only. Configure the AC address and admin account; APs are discovered through the AC and read directly over their own admin API (self-signed HTTPS, certificate not verified). Install through HACS as a custom repository. Not affiliated with GECOOS.
