@@ -1,0 +1,169 @@
+{
+  "ac_overview": {
+    "ret": 1,
+    "apnum": 3,
+    "apnum_online": 2,
+    "apnum_offline": 1,
+    "client_num": 4
+  },
+  "ac_aplist": {
+    "ret": 1,
+    "aplist": [
+      {
+        "mac": "02:00:00:00:00:01",
+        "ip": "192.0.2.11",
+        "name": "AP59_客厅沙发_AX1800",
+        "model": "AX1800MI",
+        "version": "8.0_2025052000",
+        "online": "yes",
+        "reporttime": 1761450000,
+        "template": "default",
+        "clientnum": 0
+      },
+      {
+        "mac": "02:00:00:00:00:02",
+        "ip": "192.0.2.12",
+        "name": "AP164儿童房_RM2100",
+        "model": "AP245P",
+        "version": "8.0_2025052000",
+        "online": "yes",
+        "reporttime": 1761450000,
+        "template": "default",
+        "clientnum": 0
+      },
+      {
+        "mac": "02:00:00:00:00:03",
+        "ip": "192.0.2.13",
+        "name": "AP133_主卧书桌RAX3kM",
+        "model": "AP250MD",
+        "version": "7.4_2023092700",
+        "online": "no",
+        "reporttime": 1761450000,
+        "template": "default",
+        "clientnum": 7
+      }
+    ]
+  },
+  "ap_overview": {
+    "loadavg": [
+      0.02978515625,
+      0.01123046875,
+      0
+    ],
+    "memtotal": 197164,
+    "memfree": 60220,
+    "membuffers": 9024,
+    "memcached": 0,
+    "uptime": 2054533,
+    "ac_status": "online",
+    "cputable": {
+      "cpu": {
+        "softirq": "8264210",
+        "irq": "1291638",
+        "system": "1337746",
+        "user": "488278",
+        "idle": 809816273,
+        "iowait": "469",
+        "nice": "0"
+      }
+    },
+    "lan": {
+      "rx_bytes": 1000000,
+      "tx_bytes": 500000,
+      "speed": "1000"
+    },
+    "wifinets": {
+      "ath11": {
+        "ssid": "HomeWiFi-ath11",
+        "alias": "2.4G",
+        "assoclist": {
+          "02:00:00:00:00:04": {
+            "signal": -58,
+            "assoctime": 1610385
+          },
+          "02:00:00:00:00:05": {
+            "signal": -69,
+            "assoctime": 1438365
+          }
+        }
+      },
+      "ath1": {
+        "ssid": "HomeWiFi-ath1",
+        "alias": "2.4G",
+        "assoclist": {
+          "02:00:00:00:00:06": {
+            "signal": -45,
+            "assoctime": 620594
+          }
+        }
+      },
+      "ath0": {
+        "ssid": "HomeWiFi-ath0",
+        "alias": "5G",
+        "assoclist": {}
+      }
+    }
+  },
+  "ap_wireless": {
+    "ret": 1,
+    "ssid_table": {
+      "ssid1": {
+        "radio": {
+          "wifi1": {
+            "02:00:00:00:00:04": {
+              "hostname": "device-04",
+              "ip": "192.0.2.104",
+              "alias": "2.4G"
+            },
+            "02:00:00:00:00:07": {
+              "hostname": "device-07",
+              "ip": "192.0.2.107",
+              "alias": "2.4G"
+            },
+            "02:00:00:00:00:08": {
+              "hostname": "device-08",
+              "ip": "192.0.2.108",
+              "alias": "2.4G"
+            },
+            "02:00:00:00:00:05": {
+              "hostname": "device-05",
+              "ip": "192.0.2.105",
+              "alias": "2.4G"
+            },
+            "02:00:00:00:00:09": {
+              "hostname": "device-09",
+              "ip": "192.0.2.109",
+              "alias": "2.4G"
+            },
+            "02:00:00:00:00:0A": {
+              "hostname": "device-0A",
+              "ip": "192.0.2.110",
+              "alias": "2.4G"
+            },
+            "02:00:00:00:00:0B": {
+              "hostname": "device-0B",
+              "ip": "192.0.2.111",
+              "alias": "2.4G"
+            }
+          }
+        }
+      },
+      "ssid2": {
+        "radio": {
+          "wifi0": {}
+        }
+      },
+      "ssid3": {
+        "radio": {
+          "wifi1": {
+            "02:00:00:00:00:06": {
+              "hostname": "device-06",
+              "ip": "192.0.2.106",
+              "alias": "2.4G"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Never commit real device data or credentials
+*.har
+captures/
+evidence/
+secrets*.json
+.env
+.env.*
+
+# Local Home Assistant used for testing
+config/
+.storage/
+home-assistant*.log

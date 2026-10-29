@@ -1,0 +1,14 @@
+{
+  "domain": "gecoos_ac",
+  "name": "Gecoos AC (集客)",
+  "codeowners": [
+    "@margrop"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/margrop/ha-gecoos",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/margrop/ha-gecoos/issues",
+  "requirements": [],
+  "version": "0.2.0"
+}

@@ -1,0 +1,93 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Gecoos AC",
+        "description": "AC address and admin account. Leave the AP password empty to reuse the same password.",
+        "data": {
+          "host": "AC host",
+          "username": "Username",
+          "password": "Password",
+          "ap_password": "AP admin password (optional)",
+          "name": "Name"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update the password",
+        "description": "The AC rejected the password of {title}. Enter the current admin password; leave the AP password empty to reuse it.",
+        "data": {
+          "password": "Password",
+          "ap_password": "AP admin password (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the AC",
+      "invalid_auth": "Invalid credentials"
+    },
+    "abort": {
+      "already_configured": "This AC is already configured",
+      "reauth_successful": "Password updated"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "online": {
+        "name": "Online"
+      }
+    },
+    "sensor": {
+      "clients": {
+        "name": "Clients"
+      },
+      "download": {
+        "name": "Download"
+      },
+      "upload": {
+        "name": "Upload"
+      },
+      "load": {
+        "name": "Load"
+      },
+      "cpu": {
+        "name": "CPU usage"
+      },
+      "memory": {
+        "name": "Memory usage"
+      },
+      "location": {
+        "name": "Location"
+      },
+      "boot": {
+        "name": "Boot time"
+      },
+      "ap_total": {
+        "name": "APs"
+      },
+      "ap_online": {
+        "name": "APs online"
+      },
+      "ap_offline": {
+        "name": "APs offline"
+      },
+      "clients_total": {
+        "name": "Total clients"
+      },
+      "download_total": {
+        "name": "Total download"
+      },
+      "upload_total": {
+        "name": "Total upload"
+      }
+    }
+  }
+}
